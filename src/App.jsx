@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/restorant'>
       <NavBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
