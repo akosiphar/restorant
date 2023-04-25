@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-/* .h1 {
-    font-size: calc(4rem + 1.5vw);
-} */
-
 .card-hover {
     background-color: white;
     color: black;
@@ -81,4 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 .section-border.text-start::before,
 .section-border.text-end::after {
     display: none;
+}
+
+.nav-link.active {
+    color:#FEA11D;
 }

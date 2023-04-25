@@ -8,6 +8,8 @@ import Login from './pages/Login'
 import NavBar from './components/AppNavBar'
 import { Route, Routes, BrowserRouter as Router, BrowserRouter } from 'react-router-dom'
 import Register from './pages/Register'
+import 'animate.css'
+import 'aos/dist/aos.css'
 
 function App() {
 
